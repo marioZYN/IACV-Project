@@ -8,3 +8,8 @@ Team member:
 * Wang Xuan
 * Sofia Mitoulaki
 * Zhou Yinan
+
+## TO-DO
+- [x] Create patches for a single file example
+- [ ] Generate the patches for all images
+- [ ] FC-CNN for image classification
