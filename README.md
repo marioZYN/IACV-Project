@@ -9,7 +9,7 @@ Team member:
 * Sofia Mitoulaki
 * Zhou Yinan
 
-## TO-DO
-- [x] Create patches for a single file example
-- [ ] Generate the patches for all images
-- [ ] FC-CNN for image classification
+## Current Work
+- [x] assignment 0 : extract patches from images
+- [x] assignment 1 : pre-processing phase, implement binary classifier to classify     sealion patches and background patches
+- [x] assignment 2 : use CNN for multi-class classification
