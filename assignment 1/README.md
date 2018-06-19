@@ -1,6 +1,10 @@
 # Assignment 1
 
-Before using CNN to classify the image, we desin a simple classifier (SVM, decision tree, LR etc.) to do some pre-processing. The task of pre-processing is to do binary classification, determining whether a given patch contains sealions or not. The General pipeline is the following:
+Before using CNN to classify the image, we design a simple classifier (SVM, decision tree, LR etc.). The goal of it is to do binary classification, determining whether a given patch contains sealions or not. Basically there are two purposes of doing this phase:
+1. calculate the baseline to compare with CNN solution
+2. act as pre-processing phase of CNN to increase the performance
+
+The General pipeline is the following:
 
 patches -> pre-processing classifier -> CNN
 
@@ -14,3 +18,5 @@ The simple logistic regression classifier using R, G, B values as features only 
 In order to improve the score, we can try the following two methods:
 * use a different algorithm
 * create more features 
+
+In the end, we decide not to use this pre-processing phase and only use CNN for classification. 

@@ -10,6 +10,8 @@ Team member:
 * Zhou Yinan
 
 ## Current Work
-- [x] assignment 0 : extract patches from images
-- [x] assignment 1 : pre-processing phase, implement binary classifier to classify     sealion patches and background patches
+- [x] assignment 0 : extract patches from images, get sealion coordinates using blob detection
+- [x] assignment 1 : pre-processing phase, implement binary classifier to classify sealion patches and background patches
 - [x] assignment 2 : use CNN for multi-class classification
+- [x] assignment 3 : algorithm evaluation 
+
